@@ -1,6 +1,5 @@
 {
   "name": "brain",
-  "homepage": "https://github.com/VibinGowtham/Face-Recognition-Brain",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,8 +16,6 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -26,9 +23,6 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "engines": {
-    "node": "12.13.0"
   },
   "browserslist": {
     "production": [
